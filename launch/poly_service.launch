@@ -1,0 +1,4 @@
+<launch>
+	<node name="po_service" pkg="study_pkg" type="po_service.py" output="screen"/>
+	<node name="po_summator" pkg="study_pkg" type="po_summator.py" output="screen"/>
+</launch>	
